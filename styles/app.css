@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #f3f4f6;
+  --secondary: #1f2937;
+  --tertiary: #10b981;
+  --quaternary: #6b7280;
+  --quinary: #9ca3af;
+  --senary: #e5e7eb;
+  --septenary: #f9fafb;
+  --octonary: #d1d5db;
+  --nonary: #374151;
+  --denary: #111827;
+}
