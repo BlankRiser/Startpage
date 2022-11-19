@@ -1,6 +1,6 @@
 // import { Link } from "@remix-run/react";
 
-export default function Navbar() {
+export function Navbar() {
   return (
     <nav className="w-full">
       {/* <ul className="w-full flex justify-around items-center py-4">

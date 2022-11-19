@@ -1,43 +1,71 @@
 import {
+  Codepen,
   DuckDuckGo,
   Google,
   HackerNews,
-  IndieHacker,
   Reddit,
   Stackoverflow,
 } from "~/icons";
 
-export const SearchEngine = [
+export type ISearch = {
+  name: Engines;
+  url: string;
+  icon: any;
+  shorthand: string;
+};
+// UNION TYPE OF NAME
+
+export type Engines =
+  | "Google"
+  | "DuckDuckGo"
+  | "Google"
+  | "Reddit"
+  | "Indie Hackers"
+  | "Hacker News"
+  | "Codepen"
+  | "Stack Overflow";
+
+export const SearchEngine: ISearch[] = [
   {
     name: "DuckDuckGo",
+    shorthand: "/d",
     url: "https://duckduckgo.com/?q=",
-    icon: () => <DuckDuckGo width={24} height={24} className="!fill-white " />,
+    icon: () => <DuckDuckGo width={38} height={38} className="" />,
   },
   {
     name: "Google",
     url: "https://google.com/search?q=",
-    icon: () => <Google width={24} height={24} className="fill-slate-200" />,
+    shorthand: "/g",
+    icon: () => <Google width={38} height={38} className="" />,
   },
   {
+    shorthand: "/r",
     name: "Reddit",
     url: "https://www.reddit.com/search/?q=",
-    icon: () => <Reddit width={24} height={24} className="!fill-white " />,
+    icon: () => <Reddit width={38} height={38} className="" />,
   },
+  // {
+  //   shorthand: "/ih",
+  //   name: "Indie Hackers",
+  //   url: "https://www.indiehackers.com/search?q=",
+  //   icon: () => <IndieHacker width={38} height={38} className="" />,
+  // },
   {
-    name: "Indie Hackers",
-    url: "https://www.indiehackers.com/search?q=",
-    icon: () => <IndieHacker width={24} height={24} className="!fill-white " />,
-  },
-  {
+    shorthand: "/hn",
     name: "Hacker News",
     url: "https://hn.algolia.com/?q=",
-    icon: () => <HackerNews width={24} height={24} className="!fill-white " />,
+    icon: () => <HackerNews width={38} height={38} className="" />,
   },
   {
+    shorthand: "/so",
     name: "Stack Overflow",
     url: "https://stackoverflow.com/search?q=",
-    icon: () => (
-      <Stackoverflow width={24} height={24} className="!fill-white " />
-    ),
+    icon: () => <Stackoverflow width={38} height={38} className="" />,
+  },
+  {
+    shorthand: "/cp",
+    name: "Codepen",
+    url: "https://codepen.io/search/pens?q=",
+    icon: () => <Codepen width={38} height={38} className="" />,
   },
 ];

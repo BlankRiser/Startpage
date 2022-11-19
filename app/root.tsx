@@ -9,7 +9,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import Navbar from "./components/Navbar";
+import { Navbar } from "./components";
 
 export function links() {
   return [{ rel: "stylesheet", href: styles }];
