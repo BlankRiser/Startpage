@@ -33,7 +33,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="bg-zinc-900 text-zinc-200">
+      <body className="bg-brand-gray text-brand-white">
         <Navbar />
         <Outlet />
         <ScrollRestoration />

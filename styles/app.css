@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --primary: #f3f4f6;
+  /* --primary: #f3f4f6;
   --secondary: #1f2937;
   --tertiary: #10b981;
   --quaternary: #6b7280;
@@ -12,5 +12,21 @@
   --septenary: #f9fafb;
   --octonary: #d1d5db;
   --nonary: #374151;
-  --denary: #111827;
+  --denary: #111827; */
+  --bg-dark: #1d1d1d;
+  --text-light: #fdfdfd;
+  --red: #fe6a77;
+  --blue: #3a9cfc;
+  --teal: #02d1b9;
+  --yellow: #ffd669;
+  --beige: #fdc799;
+  --purple: #895bf7;
+}
+html {
+  @apply bg-zinc-900 text-zinc-200;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-light);
+  background-color: var(--bg-dark);
 }
