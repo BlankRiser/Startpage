@@ -1,6 +1,6 @@
 import type { SVGProps } from "react";
 
-export const IndiHacker = (props: SVGProps<SVGSVGElement>) => (
+export const IndieHacker = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={24}
     height={24}
@@ -10,7 +10,7 @@ export const IndiHacker = (props: SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M4 6h3v12H4V6ZM10 6h3v4.5h4V6h3v12h-3v-4.5h-4V18h-3V6Z"
-      fill="#000"
+      fill="#fff"
     />
   </svg>
 );

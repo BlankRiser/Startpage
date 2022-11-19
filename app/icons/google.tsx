@@ -2,6 +2,8 @@ import type { SVGProps } from "react";
 
 export const Google = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    width={48}
+    height={48}
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 48 48"
