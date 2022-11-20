@@ -70,7 +70,7 @@ export default function Index() {
             className=""
             // action=""
           >
-            <div className="flex justify-between items-center py-2 px-2  border border-gray-600  rounded-md w-[90vw] xl:w-[calc(45vw)] bg-brand-gray focus-within:outline-none focus-within:bg-neutral-800 focus-within:ring-2 hover:ring-primary-dark focus-within:ring-primary-light group-focus:border-transparent text-brand-white transition ">
+            <div className="flex justify-between items-center py-2 px-2  border border-gray-600  rounded-md w-[90vw] xl:w-[calc(65vw)] bg-brand-gray focus-within:outline-none focus-within:bg-neutral-800 focus-within:ring-2 hover:ring-primary-dark focus-within:ring-primary-light group-focus:border-transparent text-brand-white transition ">
               <Popover>
                 <section className="flex flex-col items-center gap-4 divide-neutral-600">
                   <div className="grid grid-cols-3 justify-center items-center gap-4 w-max bg-transparent">

@@ -1134,4 +1134,8 @@ html {
   .xl\:w-\[calc\(45vw\)\] {
     width: calc(45vw);
   }
+
+  .xl\:w-\[calc\(65vw\)\] {
+    width: calc(65vw);
+  }
 }

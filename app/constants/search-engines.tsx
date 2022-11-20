@@ -23,6 +23,7 @@ export type Engines =
   | "Indie Hackers"
   | "Hacker News"
   | "Codepen"
+  | "Dribbble"
   | "Stack Overflow";
 
 export const SearchEngine: ISearch[] = [
@@ -67,6 +68,18 @@ export const SearchEngine: ISearch[] = [
   //   name: "Indie Hackers",
   //   url: "https://www.indiehackers.com/search?q=",
   //   icon: () => <IndieHacker width={38} height={38} className="opacity-90 hover:opacity-100 transition-opacity ease-in-out" />,
+  // },
+  // {
+  //   shorthand: "/dr",
+  //   name: "Dribbble",
+  //   url: "https://dribbble.com/search/",
+  //   icon: () => (
+  //     <IndieHacker
+  //       width={38}
+  //       height={38}
+  //       className="opacity-90 hover:opacity-100 transition-opacity ease-in-out"
+  //     />
+  //   ),
   // },
   {
     shorthand: "/hn",

@@ -17,13 +17,21 @@ export function links() {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "DevHaven Start",
+  robots: "follow, index",
+  title: "DevHaven Startpage ･ﾟ✧",
+  description: `Startpage to easily search for dev resources`,
   viewport: "width=device-width,initial-scale=1",
+  color: "#1d1d1d",
+  "theme-color": "#1d1d1d",
   "twitter:card": "summary_large_image",
   "twitter:creator": `@rschoudhary1999`,
-  "twitter:site": `@rschoudhary1999`,
-  "twitter:title": `Devhaven Startpage`,
+  "twitter:site": `https://twitter.com/rschoudhary1999`,
+  "twitter:title": `DevHaven Startpage ･ﾟ✧`,
   "twitter:description": `Startpage to easily search for dev resources`,
+  "og:url": `https://startpage.ram.codes`,
+  "og:title": `DevHaven Startpage ･ﾟ✧`,
+  "og:site_name": `DevHaven Startpage ･ﾟ✧`,
+  "og:type": `website`,
 });
 
 export default function App() {
