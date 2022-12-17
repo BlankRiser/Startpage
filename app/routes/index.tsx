@@ -90,7 +90,7 @@ export default function Index() {
                             setStoredEngine(engine.name);
                           }}
                         >
-                          <Icon className="fill-white" />
+                          <Icon className="p-1 " />
                         </button>
                       );
                     })}
@@ -101,8 +101,8 @@ export default function Index() {
                       onPressedChange={setOpenNewTab}
                       asChild
                     >
-                      <button className="w-full rounded-sm flex gap-2 justify-start items-center bg-neutral-900 hover:bg-neutral-900/50 active:bg-neutral-900/25 p-2">
-                        <span className="ml-2 leading-2 text-neutral-300 text-sm">
+                      <button className="w-full rounded-sm flex gap-2 justify-start  items-center bg-neutral-900 hover:bg-neutral-900/50 active:bg-neutral-900/25 p-2 focus-visible:ring focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-primary-light/50">
+                        <span className="ml-2 leading-2 text-neutral-400 text-sm">
                           {openNewTab
                             ? "Open in new tab"
                             : "Open in current tab"}
@@ -126,8 +126,8 @@ export default function Index() {
                 type="text"
                 className="pl-4 w-full bg-transparent focus:outline-none"
               />
-              <button className="bg-neutral-800/50 text-white transition-colors ease-in-out duration-150 hover:text-black rounded-md py-2 px-2 hover:bg-primary-light  focus:bg-primary-dark ">
-                <MagnifyingGlassIcon className=" " width={26} height={26} />
+              <button className="bg-neutral-800/50 text-neutral-300 transition-colors ease-in-out duration-150 hover:text-black rounded-md py-2 px-2 hover:bg-primary-light  focus:bg-primary-dark">
+                <MagnifyingGlassIcon width={26} height={26} />
               </button>
             </div>
           </Form>
